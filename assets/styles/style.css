@@ -191,7 +191,7 @@ p{
  }
 
  .mission{
-    display: block;
+    float: left;
  }
 
  
