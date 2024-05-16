@@ -181,6 +181,7 @@ p{
 
  .description{
     display: flex;
+    align-items: center;
 
  }
 
