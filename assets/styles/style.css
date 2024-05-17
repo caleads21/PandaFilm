@@ -191,7 +191,7 @@ p{
     padding-right: 20px; /* Espaçamento entre o texto e a imagem */
 }
 
-.container2 {
+.container2, .texto2 {
     width: 100%; /* ou defina a largura desejada */
   }
   
