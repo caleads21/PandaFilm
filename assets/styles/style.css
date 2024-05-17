@@ -191,13 +191,18 @@ p{
     padding-right: 20px; /* Espaçamento entre o texto e a imagem */
 }
 
-.container2, .texto2 {
+.container2 {
     width: 100%; /* ou defina a largura desejada */
+    clear: both; /* Limpa a flutuação de elementos anteriores */
   }
   
   .img2 {
     float: left; /* Alinha a imagem à esquerda */
     margin-right: 10px; /* Espaço entre a imagem e o texto */
+  }
+  
+  .texto2 {
+    float: right; /* Alinha o texto à direita */
   }
 
   
