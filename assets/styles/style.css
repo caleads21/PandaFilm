@@ -179,22 +179,22 @@ p{
     font-size: 30px;
 }
 
-.container {
+.about {
     width: 100%;
   }
   img {
     float: left;
     margin-left: 10px;
   }
-  .container {
+  .mission {
     width: 100%;
   }
   img {
-    float: left;
+    float: right;
     margin-left: 10px;
   }
 
-  .container {
+  .more {
     width: 100%;
   }
   img {
