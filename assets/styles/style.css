@@ -179,12 +179,10 @@ p{
     font-size: 30px;
 }
 
-.about {
-    width: 100%;
-    align-items: center;
     
-  }
+
   .logo {
+    width: 30px;
     float: right;
     margin-left: 10px;
    
