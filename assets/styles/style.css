@@ -192,15 +192,13 @@ p{
 }
 
 .container2 {
-    display: flex;
-    align-items: center; /* Para alinhar verticalmente */
-}
-
-.texto2 {
-    flex: 1; /* Para o texto ocupar o espaço disponível */
-    padding-right: 20px; /* Espaçamento entre o texto e a imagem */
-}
-
+    width: 100%; /* ou defina a largura desejada */
+  }
+  
+  .img2 {
+    float: left; /* Alinha a imagem à esquerda */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+  }
 
   
 
