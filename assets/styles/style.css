@@ -179,11 +179,9 @@ p{
     font-size: 30px;
 }
 
- .description{
-    float: left;
-    align-items: center;
+ 
 
- }
+ 
 
  .about{
     display: flex;
