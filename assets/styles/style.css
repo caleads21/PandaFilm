@@ -179,22 +179,27 @@ p{
     font-size: 30px;
 }
 
- .mission{
+.container {
     width: 100%;
-
   }
-  .logo {
-    float: right;
+  img {
+    float: left;
+    margin-left: 10px;
+  }
+  .container {
+    width: 100%;
+  }
+  img {
+    float: left;
     margin-left: 10px;
   }
 
-  .description {
+  .container {
     width: 100%;
-
   }
-  .panda {
+  img {
     float: left;
-    margin-right: 10px;
+    margin-left: 10px;
   }
 
 
