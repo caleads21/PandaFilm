@@ -191,7 +191,7 @@ p{
     padding-right: 20px; /* Espaçamento entre o texto e a imagem */
 }
 
-.container2 {
+.about {
     width: 100%; /* ou defina a largura desejada */
     clear: both; /* Limpa a flutuação de elementos anteriores */
   }
@@ -201,7 +201,7 @@ p{
     margin-right: 10px; /* Espaço entre a imagem e o texto */
   }
   
-  .texto2 {
+  .paragrafo {
     float: right; /* Alinha o texto à direita */
   }
 
