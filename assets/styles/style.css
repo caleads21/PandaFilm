@@ -180,9 +180,10 @@ p{
 }
 
 .about {
-    width: 300%;
+    width: 100%;
   }
-  img {;
+  img {
+    width: 300%;
     float: right;
     margin-left: 10px;
    
