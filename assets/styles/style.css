@@ -182,9 +182,9 @@ p{
 .about {
     width: 100%;
   }
-  img {
+  img.about {
     float: left;
-    margin-left: 10px;
+    margin-right: 10px;
   }
   .mission {
     width: 100%;
