@@ -181,7 +181,6 @@ p{
 
 .about {
     width: 100%;
-    margin-left: 10% ;
     
   }
   .logo {
@@ -190,8 +189,8 @@ p{
    
   }
 
-  p {
-    align-items: center;
+  .about-text {
+    width: 50px;
   }
  
   
