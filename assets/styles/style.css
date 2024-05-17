@@ -180,14 +180,14 @@ p{
 }
 
 .about {
-    width: 130%;
+    width: 100%;
     text-align:  center;
     
   }
   img {
     width: 40%;
     float: right;
-    margin-left: 10px;
+    margin-left: 0px;
    
   }
  
