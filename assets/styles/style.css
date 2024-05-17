@@ -191,9 +191,16 @@ p{
     padding-right: 20px; /* Espaçamento entre o texto e a imagem */
 }
 
-.imagem {
-    
+.container2 {
+    float: left;
+    align-items: center; /* Para alinhar verticalmente */
 }
+
+.texto2 {
+    flex: 1; /* Para o texto ocupar o espaço disponível */
+    padding-right: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
 
   
 
