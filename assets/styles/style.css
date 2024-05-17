@@ -181,18 +181,19 @@ p{
 
     
 
-  .logo {
-    width: 30px;
-    float: right;
-    margin-left: 10px;
-   
-  }
+.container {
+    display: flex;
+    align-items: center; /* Para alinhar verticalmente */
+}
 
-  .about-text {
-    font-size: 10px;
-    text-align: center;
-  }
- 
+.texto {
+    flex: 1; /* Para o texto ocupar o espaço disponível */
+    padding-right: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+.imagem {
+    flex: 1; /* Para a imagem ocupar o espaço disponível */
+}
   
 
  
