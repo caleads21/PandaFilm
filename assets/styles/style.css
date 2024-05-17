@@ -181,7 +181,7 @@ p{
 
  .description{
     float: left;
-    
+    align-items: center;
 
  }
 
@@ -189,6 +189,14 @@ p{
     display: flex;
     align-items: center;
  }
+
+ .description {
+    width: 100%;
+
+  }
+  .logo {
+    float: left;
+    margin-left: 10px;
 
  
     
