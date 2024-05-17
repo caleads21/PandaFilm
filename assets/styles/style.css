@@ -191,8 +191,8 @@ p{
  }
 
  .mission{
-    display: flexbox;
-    align-items: center;
+    display:inline-block ;
+    
  }
 
  
