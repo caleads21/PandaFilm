@@ -182,10 +182,10 @@ p{
 .about {
     width: 100%;
   }
-  img {
-    size: 500px;
+  img {;
     float: right;
     margin-left: 10px;
+    width: 200px;
   }
  
   
