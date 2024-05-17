@@ -182,7 +182,7 @@ p{
 .about {
     width: 100%;
   }
-  img.about {
+  img {
     float: left;
     margin-right: 10px;
   }
