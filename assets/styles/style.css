@@ -180,7 +180,7 @@ p{
 }
 
  .description{
-    display: flex;
+    float: left;
     align-items: center;
 
  }
