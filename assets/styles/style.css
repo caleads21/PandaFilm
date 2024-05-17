@@ -193,7 +193,7 @@ p{
 }
 
 .imagem {
-    width: 500px; /* Largura da imagem */
+    width: 100%; /* Largura da imagem */
     height: auto; /* Mantém a proporção da imagem */
 }
 
