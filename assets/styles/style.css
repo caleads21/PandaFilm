@@ -191,7 +191,8 @@ p{
  }
 
  .mission{
-    
+    display: flex;
+    align-items: center;
  }
 
  
