@@ -179,7 +179,7 @@ p{
     font-size: 30px;
 }
 
- .description {
+ .mission{
     width: 100%;
 
   }
@@ -187,6 +187,16 @@ p{
     float: right;
     margin-left: 10px;
   }
+
+  .description {
+    width: 100%;
+
+  }
+  .panda {
+    float: right;
+    margin-left: 10px;
+  }
+
 
  
     
