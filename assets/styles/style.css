@@ -201,7 +201,7 @@ p{
     margin-right: 10px; /* Espaço entre a imagem e o texto */
   }
   
-  .paragrafo {
+  p {
     float: right; /* Alinha o texto à direita */
   }
 
