@@ -190,6 +190,10 @@ p{
     margin-left: 0px;
    
   }
+
+  .about, img{
+    align-items: center;
+  }
  
   
 
