@@ -197,14 +197,14 @@ p{
     align-items: baseline;
   }
   
-  .img {
+  .img2 {
     float: left; /* Alinha a imagem à esquerda */
-    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    margin-right: 0px; /* Espaço entre a imagem e o texto */
   }
   
   .texto2 {
     float: right; /* Alinha o texto à direita */
-    width: calc(50% - 50px); /* Ajusta a largura do texto para deixar espaço para a imagem */
+    width: calc(70% - 60px); /* Ajusta a largura do texto para deixar espaço para a imagem */
   }
   
 
