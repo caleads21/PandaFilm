@@ -186,6 +186,7 @@ p{
     align-items: center; /* Para alinhar verticalmente */
     border: 2px solid #000; /* Adiciona uma borda às imagens */
     border-color: white;
+    background-color: aqua;
 
 }
 
@@ -195,10 +196,13 @@ p{
 }
 
 .about {
+    margin: 30px;
     width: 100%; /* ou defina a largura desejada */
     clear: both; /* Limpa a flutuação de elementos anteriores */
-    align-items: baseline;
+    border: 2px solid #000; /* Adiciona uma borda às imagens */
     border-color: white;
+    background-color: aqua;
+    
   }
   
   .img {
