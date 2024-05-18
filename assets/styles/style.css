@@ -184,6 +184,9 @@ p{
 .container {
     display: flex;
     align-items: center; /* Para alinhar verticalmente */
+    border: 2px solid #000; /* Adiciona uma borda às imagens */
+    border-color: white;
+
 }
 
 .texto {
@@ -195,16 +198,18 @@ p{
     width: 100%; /* ou defina a largura desejada */
     clear: both; /* Limpa a flutuação de elementos anteriores */
     align-items: baseline;
+    border-color: white;
   }
   
-  .img2 {
+  .img {
     float: left; /* Alinha a imagem à esquerda */
-    margin-right: 0px; /* Espaço entre a imagem e o texto */
+    margin-left: 10px; /* Espaço entre a imagem e o texto */
   }
   
   .texto2 {
     float: right; /* Alinha o texto à direita */
     width: calc(70% - 60px); /* Ajusta a largura do texto para deixar espaço para a imagem */
+    margin-right: 50px;
   }
   
 
