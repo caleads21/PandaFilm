@@ -194,6 +194,7 @@ p{
 .about {
     width: 100%; /* ou defina a largura desejada */
     clear: both; /* Limpa a flutuação de elementos anteriores */
+    align-items: baseline;
   }
   
   .img {
@@ -203,7 +204,7 @@ p{
   
   .texto2 {
     float: right; /* Alinha o texto à direita */
-    width: calc(100% - 100px); /* Ajusta a largura do texto para deixar espaço para a imagem */
+    width: calc(50% - 50px); /* Ajusta a largura do texto para deixar espaço para a imagem */
   }
   
 
