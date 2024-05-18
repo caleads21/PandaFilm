@@ -187,7 +187,6 @@ p{
     border: 2px solid #000; /* Adiciona uma borda às imagens */
     border-color: white;
     background-color: aqua;
-
 }
 
 .texto1 {
@@ -199,35 +198,38 @@ p{
     margin: 30px;
     width: 100%; /* ou defina a largura desejada */
     clear: both; /* Limpa a flutuação de elementos anteriores */
-    border: 2px solid blue; /* Adiciona uma borda às imagens */
-    
-    
-  }
-  
-  .img {
+}
+
+.img {
     float: left; /* Alinha a imagem à esquerda */
     margin-left: 10px; /* Espaço entre a imagem e o texto */
-  }
-  
-  .texto2 {
+}
+
+.texto2 {
     float: right; /* Alinha o texto à direita */
     width: calc(70% - 60px); /* Ajusta a largura do texto para deixar espaço para a imagem */
     margin-right: 50px;
-  }
-
-  .more {
-    display: flex;
-    align-items: center; /* Para alinhar verticalmente */
-    border: 2px solid #000; /* Adiciona uma borda às imagens */
-    border-color: white;
-    background-color: aqua;
-
 }
 
-.texto3 {
-    flex: 1; /* Para o texto ocupar o espaço disponível */
-    padding-right: 20px; /* Espaçamento entre o texto e a imagem */
+/* Media query para telas menores que 768px */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+    }
+    
+    .texto1,
+    .texto2 {
+        width: auto; /* Remove a largura fixa para permitir que o texto se ajuste dinamicamente */
+        margin: 10px; /* Adiciona margem entre os elementos */
+        float: none; /* Remove o alinhamento flutuante */
+    }
+    
+    .img {
+        margin: 10px auto; /* Centraliza a imagem */
+    }
 }
+
+  
 
 
   
