@@ -190,7 +190,7 @@ p{
 
 }
 
-.texto {
+.texto1 {
     flex: 1; /* Para o texto ocupar o espaço disponível */
     padding-right: 20px; /* Espaçamento entre o texto e a imagem */
 }
@@ -199,9 +199,8 @@ p{
     margin: 30px;
     width: 100%; /* ou defina a largura desejada */
     clear: both; /* Limpa a flutuação de elementos anteriores */
-    border: 2px solid #000; /* Adiciona uma borda às imagens */
-    border-color: white;
-    background-color: aqua;
+    border: 2px solid blue; /* Adiciona uma borda às imagens */
+    
     
   }
   
@@ -215,6 +214,22 @@ p{
     width: calc(70% - 60px); /* Ajusta a largura do texto para deixar espaço para a imagem */
     margin-right: 50px;
   }
+
+  .more {
+    display: flex;
+    align-items: center; /* Para alinhar verticalmente */
+    border: 2px solid #000; /* Adiciona uma borda às imagens */
+    border-color: white;
+    background-color: aqua;
+
+}
+
+.texto3 {
+    flex: 1; /* Para o texto ocupar o espaço disponível */
+    padding-right: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+
   
 
  
