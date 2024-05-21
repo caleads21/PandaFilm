@@ -186,7 +186,7 @@ p{
     align-items: center; /* Para alinhar verticalmente */
     border: 2px solid #000; /* Adiciona uma borda às imagens */
     border-color: white;
-    background-color: aqua;
+    background-color: grey;
 }
 
 .texto1 {
@@ -208,7 +208,7 @@ p{
 .texto2 {
     float: right; /* Alinha o texto à direita */
     width: calc(70% - 60px); /* Ajusta a largura do texto para deixar espaço para a imagem */
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 /* Media query para telas menores que 768px */
